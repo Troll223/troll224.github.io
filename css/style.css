@@ -549,6 +549,7 @@ a:focus {
     border-radius: 10px;
     border: none;
     color: #19966b;
+    background-color: white;
 }
 .continue_desc{
     color: #19966b;
