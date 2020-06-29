@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="refresh" content="10; url=../">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Поздравляем! Ваш заказ принят!</title>
+</head>
+
+<body>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 100vh;
+            box-sizing: border-box;
+            font-family: Arial;
+            text-align: center;
+            margin: 0;
+        }
+
+        .block_success {
+            max-width: 960px;
+            padding: 30px;
+            margin: 0px auto;
+        }
+
+        h2 {
+            font-size: 36px;
+            line-height: 44px;
+            color: seagreen;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .order_number {
+            font-size: 26px;
+            color: #60a37d;
+            text-transform: uppercase;
+            line-height: 38px;
+            margin: 25px 0px;
+        }
+
+        .success {
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .phone {
+            font-size: 27px;
+            margin-top: 10px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px auto;
+            color: white;
+            width: 200px;
+            height: 40px;
+            background-color: seagreen;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        @media screen and (max-width: 480px) {
+            .block_success {
+                padding: 0px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h2 {
+                font-size: 30px
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .order_number {
+                font-size: 18px
+            }
+        }
+
+    </style>
+
+    <div class="block_success">
+        <h2>Спасибо за проявленный интерес!</h2>
+
+        <p class="order_number">Мы обязательно свяжемся с Вами в ближайшее время</p>
+
+        <p class="success">Если у вас есть срочный вопрос, то звоните нам по телефону:</p>
+
+        <p class="phone"><a href="tel:+73842676101" style="text-decoration:none;color:#000;">+7 (3842) 67-61-01</a></p>
+        <a class="button" href="https://campchildren.ru/">Закрыть</a>
+    </div>
+</body>
+
+</html>

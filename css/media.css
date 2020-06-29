@@ -1,0 +1,200 @@
+@media (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+    .header_btn {
+        font-size: 14px;
+        display: block;
+        background-color: #19966b;
+        color: #ffffff;
+        padding: 8px 15px;
+        border-radius: 10px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .logo img {
+        width: 140px;
+    }
+}
+
+@media (max-width: 330px) {
+    .top_info_title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 550px) {
+    .about_us_title {
+        font-size: 20px;
+    }
+    .about_us_title span {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1031px) {
+    .about_us_col, .about_us_col_photo {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .timetable_col, .timetable_col_photo {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .about_us_col {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .about_us_col_photo {
+        min-height: 500px;
+    }
+    .timetable_col {
+        order: 1;
+    }
+    .timetable_col_photo {
+        order: 2;
+        min-height: 500px;
+    }
+    .timetable_content {
+        margin: 40px 0px;
+    }
+    .big_items {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .small_items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .big_item {
+        margin-bottom: 40px;
+    }
+    .big_item:last-child {
+        margin-bottom: 0px;
+    }
+    .small_item {
+        margin-bottom: 40px;
+    }
+    .small_item:last-child {
+        margin-bottom: 0px;
+    }
+    .continue_body{
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .form{
+        margin: 0 auto 40px;
+    }
+    .continue_desc{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 430px) {
+    .price_block {
+        width: 280px;
+        height: 580px;
+        padding: 30px 20px;
+    }
+    .price_block h3 {
+        margin-bottom: 37px;
+    }
+    .price_list {
+        margin-bottom: 20px;
+    }
+    .price_list li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .price_btn {
+        font-size: 18px;
+        padding: 10px 0 10px 50px;
+    }
+    .price_btn::after {
+        position: absolute;
+        content: '';
+        background-image: url(../img/list_btn_img_adaptive.png);
+        width: 28px;
+        height: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 65%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .season_line {
+        width: 25%;
+    }
+}
+
+@media (max-width: 720px) {
+    .season_line {
+        width: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    .seasons_body {
+        flex-direction: column;
+    }
+    .season_line {
+        height: 100px;
+        width: 1px;
+    }
+}
+
+@media (max-width: 520px) {
+    .big_item {
+        width: 290px;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .small_item {
+        width: 290px;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .review_person {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .review_person2 {
+        width: 72%;
+    }
+    .review_person3 {
+        width: 62%;
+    }
+    .review_person4 {
+        width: 75%;
+    }
+    .review_person img {
+        zoom: 0.7;
+    }
+    .review_name {
+        font-size: 15px;
+    }
+    .review_desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 750px){
+    .continue_body{
+        display: table;
+    }
+}
+@media (max-width: 450px){
+    .continue_body{
+        display: block;
+        width: 300px;
+        padding: 40px 10px;
+    }
+    .form{
+        width: 260px;
+    }
+}
