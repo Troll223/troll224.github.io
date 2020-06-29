@@ -368,6 +368,7 @@ a:focus {
     display: flex;
     align-items: center;
     min-height: 100vh;
+    margin: 50px 0px;
 }
 .price_block{
     margin: 0 auto;

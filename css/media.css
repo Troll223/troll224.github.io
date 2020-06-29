@@ -191,8 +191,8 @@
 @media (max-width: 450px){
     .continue_body{
         display: block;
-        width: 300px;
-        padding: 40px 10px;
+        width: 290px;
+        padding: 40px 5px;
     }
     .form{
         width: 260px;
