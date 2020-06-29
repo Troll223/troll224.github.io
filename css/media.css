@@ -97,7 +97,7 @@
 @media (max-width: 430px) {
     .price_block {
         width: 280px;
-        height: 600px;
+        height: auto;
         padding: 30px 20px;
     }
     .price_block h3 {
