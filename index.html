@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -254,11 +255,14 @@
                     <form class="consult__form" action="formland/mail.php" method="post">
                         <div class="form-item">
                             <label>Ваше имя</label>
-                            <input type="text" name="Имя" class="consult__field" placeholder="Пример: Александра" required="">
+                            <input type="text" name="Имя" class="consult__field" placeholder="Пример: Александра"
+                                required="">
                         </div>
                         <div class="form-item">
                             <label>Ваш номер телефона</label>
-                            <input type="tel" name="Номер телефона" class="consult__field" maxlength="50" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required="required" placeholder="8(___)___-__-__">
+                            <input type="tel" name="Номер телефона" class="consult__field" maxlength="50"
+                                pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required="required"
+                                placeholder="8(___)___-__-__">
                         </div>
                         <input type="hidden" name="redirect" value="success.html">
                         <button type="submit" name="Submit">Отправить</button>
@@ -272,17 +276,32 @@
             </div>
         </div>
     </section>
-    <!--<footer class="footer">
+    <footer class="footer">
         <div class="container">
-            <div class="footer_col">
-                <a href="#"><img src=""></a>
+            <div class="footer-content">
+                <div class="cdicons">
+                    <a class="first-link link" href="https://www.instagram.com/codologia_kemerovo/">
+                        <span></span>
+                    </a>
+                    <a class="secound-link link" href="https://vk.com/kemerovo_codologia">
+                        <span></span>
+                    </a>
+                    <a class="third-link link" href="https://codologia42.ru/">
+                        <span></span>
+                    </a>
+                </div>
+                <span class="footer-line"></span>
+                <ul class="secound-ul">
+                    <h3>Контакты</h3>
+                    <li>8909 513 8541</li>
+                    <li>8923 031 1080</li>
+                    <li>676-101</li>
+                </ul>
+                <span class="footer-line"></span>
+                <p>Сайт создан учеником Кодологии</p>
             </div>
-            <div class="footer_col"></div>
-            <div class="footer_col"></div>
-            <div class="footer_col"></div>
         </div>
-    </footer>-->
-    <!-- JavaScript'ы -->
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
