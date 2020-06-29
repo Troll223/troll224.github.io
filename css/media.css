@@ -201,3 +201,20 @@
         width: 260px;
     }
 }
+@media (max-width: 770px){
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-line {
+        width: 100px;
+        height: 2px;
+    }
+    .cdicons,
+    .footer-content p,
+    .secound-ul{
+        margin: 20px 5px;
+    }
+    .footer-content p{
+        font-size: 16px;
+    }
+}

@@ -364,13 +364,14 @@ a:focus {
     font-size: 14px;
 }
 
-.price{
+.price {
     display: flex;
     align-items: center;
     min-height: 100vh;
     margin: 50px 0px;
 }
-.price_block{
+
+.price_block {
     display: table;
     margin: 0 auto;
     width: 400px;
@@ -380,14 +381,16 @@ a:focus {
     background-color: #19966b;
     color: white;
 }
-.price_block h3{
+
+.price_block h3 {
     position: relative;
     margin: 0 auto;
     text-align: center;
     font-size: 40px;
     margin-bottom: 47px;
 }
-.price_block h3::after{
+
+.price_block h3::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -396,23 +399,27 @@ a:focus {
     top: 55px;
     left: 0;
 }
-.price_list{
+
+.price_list {
     margin: 0 0 30px 0;
 }
-.price_list li{
+
+.price_list li {
     margin-bottom: 10px;
     line-height: 20px;
 }
-.price_btn{
+
+.price_btn {
     position: relative;
     font-size: 25px;
     color: white;
     border: 2px solid white;
-    padding: 15px 0 15px 80px; 
+    padding: 15px 0 15px 80px;
     border-radius: 10px;
     width: 100%;
 }
-.price_btn::after{
+
+.price_btn::after {
     position: absolute;
     content: '';
     background-image: url(../img/list_btn_img.png);
@@ -421,47 +428,53 @@ a:focus {
     top: 50%;
     transform: translateY(-50%);
     left: 65%;
-    
 }
-.seasons{
+
+.seasons {
     margin-bottom: 100px;
 }
-.seasons_body{
+
+.seasons_body {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.season{
+
+.season {
     color: #cecece;
     font-size: 20px;
 }
-.first_season{
+
+.first_season {
     color: #19966b;
 }
-.season_line{
+
+.season_line {
     width: 35%;
     margin: 0px 2px;
     height: 1px;
     background-color: #19966b;
 }
-.reviews{
+
+.reviews {
     margin-bottom: 100px;
 }
 
-.reviews h3{
+.reviews h3 {
     font-size: 26px;
     margin: 0 auto 100px;
     text-align: center;
 }
 
-.big_items{
+.big_items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 50px;
 }
-.big_item{
+
+.big_item {
     display: flex;
     flex-direction: column;
     width: 480px;
@@ -471,31 +484,34 @@ a:focus {
     padding: 20px 30px;
 }
 
-.review_person{
+.review_person {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 54%;
     margin-bottom: 20px;
 }
-.review_name{
+
+.review_name {
     color: white;
     font-weight: 500;
     font-size: 18px;
 }
-.review_desc{
+
+.review_desc {
     font-size: 18px;
     color: white;
     line-height: 24px;
     margin: auto 0;
 }
 
-.small_items{
+.small_items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.small_item{
+
+.small_item {
     display: flex;
     flex-direction: column;
     width: 480px;
@@ -504,46 +520,59 @@ a:focus {
     border-radius: 10px;
     padding: 20px 30px;
 }
-.review_person3{
+
+.review_person3 {
     width: 48%;
 }
-.review_person4{
+
+.continue{
+    margin-bottom: 60px;
+}
+
+.review_person4 {
     width: 58%;
 }
-.continue_body{
+
+.continue_body {
     display: flex;
     width: 100%;
     background-color: rgba(25, 150, 107, 0.58);
     border-radius: 10px;
     padding: 50px 60px;
 }
-.form{
+
+.form {
     background-color: #19966b;
     padding: 40px;
     border-radius: 10px;
 }
-.form h3{
+
+.form h3 {
     color: white;
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
 }
-.form-item{
+
+.form-item {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
 }
-.form-item label{
+
+.form-item label {
     color: white;
     font-size: 16px;
     margin-bottom: 15px;
 }
-.consult__field{
+
+.consult__field {
     padding: 10px;
     border-radius: 10px;
     border: none;
 }
-.consult__form button{
+
+.consult__form button {
     padding: 8px 10px;
     width: 100%;
     border-radius: 10px;
@@ -551,22 +580,24 @@ a:focus {
     color: #19966b;
     background-color: white;
 }
-.continue_desc{
+
+.continue_desc {
     color: #19966b;
     font-size: 23px;
     margin: auto auto;
 }
-.continue_desc li{
+
+.continue_desc li {
     position: relative;
     margin-bottom: 30px;
     padding-left: 35px;
-
 }
-.continue_desc li:last-child{
+
+.continue_desc li:last-child {
     margin-bottom: 0;
 }
 
-.continue_desc li::before{
+.continue_desc li::before {
     position: absolute;
     content: '';
     width: 30px;
@@ -576,4 +607,140 @@ a:focus {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.footer {
+    background-color: #3a403a;
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cdicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 20px;
+}
+
+.first-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: inherit;
+    border: 1px solid seagreen;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50px;
+    font-family: 'icofont' !important;
+    color: seagreen;
+}
+
+.first-link span {
+    position: absolute;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.first-link span:before {
+    content: "\ed46";
+}
+
+.secound-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: inherit;
+    border: 1px solid seagreen;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50px;
+    font-family: 'icofont' !important;
+    color: seagreen;
+}
+
+.secound-link span {
+    position: absolute;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.secound-link span:before {
+    content: "\ed83";
+}
+
+.third-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: inherit;
+    border: 1px solid seagreen;
+    border-radius: 50px;
+    font-family: 'Codologia' !important;
+    color: seagreen;
+}
+
+.third-link span {
+    position: absolute;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.third-link span:before {
+    content: "\e900";
+}
+
+.cdicons a {
+    transition-property: background-color, color;
+    transition-duration: 500ms;
+}
+
+.cdicons a:hover {
+    color: white;
+    background-color: seagreen;
+}
+
+.footer-line {
+    width: 2px;
+    height: 100px;
+    background-color: seagreen;
+}
+
+.secound-ul {
+    margin: 5px 20px;
+    color: seagreen;
+}
+
+.secound-ul h3 {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secound-ul li {
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin: 5px 20px;
+    color: seagreen;
 }
