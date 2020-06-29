@@ -16,10 +16,13 @@
     }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
     .top_info_title {
-        font-size: 55px;
+        font-size: 50px;
     }
+    .top_info_subtitle{
+        font-size: 20px;
+    } 
 }
 
 @media (max-width: 550px) {
